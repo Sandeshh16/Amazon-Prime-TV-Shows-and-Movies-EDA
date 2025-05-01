@@ -26,3 +26,14 @@ The manipulations performed on given data are as follows:
     -   Null values in `imdb_score`, `tmdb_popularity`, and `tmdb_score` were replaced with their respective means.
 3.  **Handling Duplicates:** Duplicate rows identified and removed from the dataset.
 
+## Data Visualization
+
+The project utilizes various visualization techniques to gain insights from the data:
+
+- **Univariate Analysis:** Box plots, histograms, and bar plots were used to explore individual variables like `imdb_score`, `runtime`, `release_year`, and `genres`.
+- **Bivariate Analysis:** Scatter plots and line plots were used to examine relationships between variables like `imdb_votes` and `imdb_score`, and trends over time.
+- **Multivariate Analysis:** Pair plots and heatmaps were used to visualize relationships between multiple variables.
+
+## Conclusion
+
+This EDA has provided valuable insights into the Amazon Prime Video dataset, revealing patterns and trends in content, user preferences, and platform strategies. The findings can be used by content creators, platform strategists, and viewers to make informed decisions and understand the dynamics of the streaming landscape.
